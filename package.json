@@ -1,0 +1,40 @@
+{
+    "name": "@chengzongxin/uni-utils",
+    "version": "1.0.2",
+    "description": "",
+    "main": ".index.js",
+    "types": "./index.d.ts",
+    "directories": {
+        "lib": "lib",
+        "test": "test"
+    },
+    "scripts": {
+        "dev": "webpack serve --config build/webpack.dev.js",
+        "release": "webpack --config build/webpack.release.js",
+        "test": "jest"
+    },
+    "jest": {
+        "extensionsToTreatAsEsm": [
+            ".ts"
+        ]
+    },
+    "author": "Dyven.peng",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.13.1",
+        "@babel/plugin-transform-runtime": "^7.13.2",
+        "@babel/preset-env": "^7.13.0",
+        "@babel/preset-typescript": "^7.13.0",
+        "@types/jest": "^27.4.1",
+        "@types/node": "^14.14.31",
+        "babel": "^6.23.0",
+        "babel-loader": "^8.2.2",
+        "babel-plugin-import": "^1.13.3",
+        "css-loader": "^5.0.2",
+        "html-webpack-plugin": "^5.5.0",
+        "jest": "^27.5.1",
+        "webpack": "^5.24.0",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.7.4"
+    }
+}

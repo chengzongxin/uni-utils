@@ -9,6 +9,6 @@ export default class UniUtils {
     }
 
     test(): void {
-        console.log('utils test')
+        console.log('utils test 123')
     }
 }

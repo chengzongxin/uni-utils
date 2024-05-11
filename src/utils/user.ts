@@ -3,7 +3,7 @@ export default class User {
     name: string;
 
     constructor() {
-        this.name = 'user'
+        this.name = 'user123'
     }
 
 }

@@ -13,6 +13,17 @@ declare class UniUtils {
   downloadPrivate: () => Promise<any>
 }
 
+declare function request<T>(options: any): Promise<T>
+
+declare class Photo {
+  name: string;
+}
+
+declare class User {
+  name: string;
+}
+
 export default UniUtils
+
 
 export * from 'uni-utils'
